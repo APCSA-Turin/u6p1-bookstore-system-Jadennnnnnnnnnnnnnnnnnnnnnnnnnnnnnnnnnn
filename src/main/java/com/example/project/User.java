@@ -44,10 +44,10 @@ public class User{
             } else string += "empty\n";
         }
         return string;
-    } //returns a booklist for the user, if empty, output "empty"
+    }
 
     public String userInfo(){
         return "Name: " + name + "\nId: " + Id + "\nBooks: \n" + bookListInfo(); 
-    } //returns  "Name: []\nID: []\nBooks:\n[]"
+    }
        
 }
