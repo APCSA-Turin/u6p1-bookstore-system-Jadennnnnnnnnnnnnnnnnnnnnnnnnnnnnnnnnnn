@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.project.TestBook" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-01-27T08:35:50" hostname="codespaces-9adfd1" time="0.121">
+<testsuite name="com.example.project.TestBook" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-01-27T08:47:47" hostname="codespaces-9adfd1" time="0.15">
   <properties/>
-  <testcase name="testBookInfo()" classname="com.example.project.TestBook" time="0.112"/>
+  <testcase name="testBookInfo()" classname="com.example.project.TestBook" time="0.146"/>
   <testcase name="testBookConstructor()" classname="com.example.project.TestBook" time="0.001"/>
   <testcase name="testSetters()" classname="com.example.project.TestBook" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

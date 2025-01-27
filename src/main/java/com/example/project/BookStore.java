@@ -157,7 +157,7 @@ public class BookStore{
         for (Book book : books) {
             // if the variable isn't null, it copies it to the new list at index i, which starts at 0
             if (book != null) {
-                // increases i if this occurs
+                // increases 1 if this occurs
                 x[i] = book;
                 i++;
             }
