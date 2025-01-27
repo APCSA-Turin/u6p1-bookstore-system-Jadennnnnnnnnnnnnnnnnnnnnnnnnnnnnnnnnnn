@@ -97,8 +97,11 @@ public class BookStore{
         bIndex++;
     }
 
+    // removes one from the quantity of a book in the books array
     public void removeBook(Book book){
+        // sets the quantity of a book to one lower
         book.setQuantity(book.getQuantity() - 1);
+        // checks if the quantity of the book becomes less than 1, and removes it from the array if it happens
         if (book.getQuantity() < 1) {
             books[indexOfArray(book)] = null;
             consolidateBooks();
@@ -107,12 +110,15 @@ public class BookStore{
         }
     }
     
-    private int indexOfArray(Book book) {
+    // finds the array of an element in the book array
+    public int indexOfArray(Book book) {
+        // loops through the array for the specific element
         for (int i = 0; i < books.length; i++) {
             if (books[i] == book) {
                 return i;
             }
         }
+        // returns -1 if the element isn;t present
         return -1;
     }
 
