@@ -1,6 +1,6 @@
 package com.example.project;
 
-public class IdGenerate{ //This class contains statics variable and methods, you do not initalize an object to use it.
+public class IdGenerate{ 
     // Intializes the currentId attribute; it's static so it can work in the static functions of this class
     private static String currentId = "99";
 
